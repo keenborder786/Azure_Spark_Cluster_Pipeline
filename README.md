@@ -75,7 +75,7 @@ docker exec -it spark-master spark-submit --master spark://spark-master:7077 job
 - Run the `download_files.sh` script on local machine to get the final output in the folder `src/output`
 
 ```bash
-chmod +x download.sh
-./upload_files.sh
+chmod +x download_files.sh
+./download_files.sh
 ```
 
