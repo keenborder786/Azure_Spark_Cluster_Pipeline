@@ -10,7 +10,7 @@
 ## 🛠 How to run the Spark-Job on Azure
 1. **Azure VM**: Ensure you have an active Azure account and have an working Azure VM (Ubuntu OS).
 2. **Upload Files on running Azure VM**:
-    - Download `.pem` for your Azure VM.
+    - Download `.pem` (private key) for your Azure VM.
     - Set the following the following env variables and run the upload files script:
 
 ```bash
