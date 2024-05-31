@@ -11,7 +11,7 @@
 1. **Azure VM**: Ensure you have an active Azure account and have an working Azure VM (Ubuntu OS).
 2. **Upload Files on running Azure VM**:
     - Download `.pem` (private key) for your Azure VM.
-    - Set the following the following env variables and run the upload files script:
+    - Set the following the following env variables and run the `upload_files.sh` script:
 
 ```bash
 
@@ -72,7 +72,7 @@ docker exec -it spark-master spark-submit --master spark://spark-master:7077 job
 
 4. Download the Output on Local Machine
 
-- Run the download_files.sh script on local machine to get the final output in the folder `src/output`
+- Run the `download_files.sh` script on local machine to get the final output in the folder `src/output`
 
 ```bash
 chmod +x download.sh
