@@ -3,7 +3,7 @@
 
 ### Architecture
 
-![](/Users/mac/Azure_Spark_Cluster_Pipeline/assets/Sparkcluster_architecture.png)
+![](assets/Sparkcluster_architecture.png)
 
 
 
